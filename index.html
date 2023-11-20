@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trabalho Sobre a Consciência Negra</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="content">
+
+        <!-- Tela 1: Capa -->
+        <div id="screen1" class="screen">
+            <h2>Trabalho de Literatura</h2>
+            <!-- Espaço para imagem da capa -->
+            <img src="https://img.freepik.com/vetores-gratis/flat-design-consiencia-negra-dia_23-2148693540.jpg"
+                alt="Capa do Trabalho" style="width:200px;">
+            <br>
+            <h5>Obs: poemas e músicas não incluídos; biografias resumidas</h5>
+            <button class="next-btn" onclick="goToScreen(2)">Próximo</button>
+        </div>
+
+        <!-- Tela 2: Apresentação -->
+        <div id="screen2" class="screen">
+            <h2>Apresentação</h2>
+            <p>Prezada Professora,
+
+                Apresentamos com entusiasmo nosso projeto sobre a Consciência Negra, que explora as contribuições de
+                figuras históricas como Machado de Assis, Monteiro Lobato, Zumbi dos Palmares e Barack Obama. Neste
+                trabalho, destacamos a importância da literatura, da história e da cultura negra através de estudos e
+                reflexões. Esperamos que este projeto enriqueça nossa compreensão sobre a diversidade cultural e
+                contribua para o aprendizado da classe.
+
+                Atenciosamente,
+
+                Enzo,Marcos e Levi
+                <button class="next-btn" onclick="goToScreen(3)">Próximo</button>
+        </div>
+
+        <!-- Tela 3: Sumário -->
+        <div id="screen3" class="screen">
+            <h2>Sumário</h2>
+            <ul>
+                <li>Personalidades negras na literatura</li>
+                <li>Personalidades negras na resistência</li>
+                <li>Personalidades negras na política</li>
+                <li>Poemas e músicas sobre a Consciência Negra</li>
+            </ul>
+            <button class="next-btn" onclick="goToScreen(4)">Próximo</button>
+        </div>
+
+        <!-- Tela 4: Personalidades Negras na Literatura -->
+        <div id="screen4" class="screen">
+            <h2>Personalidades Negras - Que Influenciaram a Literatura</h2>
+            <br>
+            <button class="next-btn" onclick="goToScreen(5)">Próximo</button>
+        </div>
+
+        <!-- Tela 5: Biografia de Machado de Assis -->
+        <div id="screen5" class="screen">
+            <h2>Biografia de Machado de Assis</h2>
+            <p>Machado de Assis (1839-1908) foi um escritor brasileiro, um dos nomes mais importantes da literatura
+                brasileira do século XIX. Destacou-se principalmente no romance e no conto, embora tenha escrito
+                crônicas, poesias, crítica literária e peças de teatro.</p>
+            <img src="https://s5.static.brasilescola.uol.com.br/be/2022/08/machado-assis.jpg" alt="Machado de Assis"
+                style="width: 200px;">
+            <button class="next-btn" onclick="goToScreen(6)">Próximo</button>
+        </div>
+
+        <!-- Tela 6: Biografia de Monteiro Lobato -->
+        <div id="screen6" class="screen">
+            <h2>Biografia de Monteiro Lobato</h2>
+            <p>Monteiro Lobato (1882-1948) foi um escritor e editor brasileiro. "O Sítio do Pica-pau Amarelo" é sua obra
+                de maior destaque na literatura infantil. Criou a "Editora Monteiro Lobato" e mais tarde a "Companhia
+                Editora Nacional". Foi um dos primeiros autores de literatura infantil de nosso país e de toda América
+                Latina.
+            </p>
+            <img src="https://upload.wikimedia.org/wikipedia/commons/d/d2/Monteiro_Lobato.jpg" alt="Monteiro Lobato"
+                style="width:200px;">
+            <button class="next-btn" onclick="goToScreen(7)">Próximo</button>
+        </div>
+
+        <!-- Outras Telas: Personalidades na Resistência, na Política, Poemas e Músicas... -->
+        <div id="screen7" class="screen">
+            <h2>Personalidades Negras - Que Influenciaram a Resistência</h2>
+            <br>
+            <button class="next-btn" onclick="goToScreen(8)">Próximo</button>
+        </div>
+        <div id="screen8" class="screen">
+            <h2>Biografia de Zumbi dos Palmares</h2>
+            <p>Zumbi dos Palmares foi o líder da resistência negra do Quilombo dos Palmares, localizado ao sul da
+                Capitania de Pernambuco, na parte inferior do rio São Francisco, na Serra da Barriga, região do atual
+                Estado de Alagoas.
+
+            </p>
+            <img src="https://s.ebiografia.com/assets/img/authors/zu/mb/zumbi-dos-palmares-l.jpg?auto_optimize=low&width=255"
+                alt="zumbi dos palmares" style="width:200px;">
+            <button class="next-btn" onclick="goToScreen(9)">Próximo</button>
+        </div>
+        <!-- Tela 9: Biografia de Dandara dos Palmares -->
+        <div id="screen9" class="screen">
+            <h2>Biografia de Dandara dos Palmares</h2>
+            <p>Dandara dos Palmares foi uma brava lutadora quilombola na época do Brasil colonial. Esposa de Zumbi dos
+                Palmares, viveu no Quilombo dos Palmares, na Serra da Barriga (atualmente localizada em Alagoas) no
+                século XVII e teve grande contribuição na resistência de homens e mulheres negras contra a opressão
+                escravagista que assolou o país por cerca de 400 anos.</p>
+            <!-- Espaço para imagem de Dandara dos Palmares -->
+            <img src="https://pbs.twimg.com/media/EeqyOWdX0AIpi8e.jpg" alt="Dandara dos Palmares" style="width:200px;">
+            <button class="next-btn" onclick="goToScreen(10)">Próximo</button>
+        </div>
+
+        <!-- Tela 10: Personalidades Negras na Política -->
+        <div id="screen10" class="screen">
+            <h2>Personalidades Negras - Que Influenciaram a Política</h2>
+            <br>
+            <button class="next-btn" onclick="goToScreen(11)">Próximo</button>
+        </div>
+
+        <!-- Tela 11: Biografia de Barack Obama -->
+        <div id="screen11" class="screen">
+            <h2>Biografia de Barack Obama</h2>
+            <p>Barack Obama (1961) é um político norte-americano. Foi o 44.º presidente dos Estados Unidos e o primeiro
+                presidente negro da história do país. Sua liderança e influência são reconhecidas mundialmente.</p>
+            <!-- Espaço para imagem de Barack Obama -->
+            <img src="https://upload.wikimedia.org/wikipedia/commons/c/c4/President_Barack_Obama_%28cropped%29.jpg"
+                alt="Barack Obama" style="width:200px;">
+            <button class="next-btn" onclick="goToScreen(13)">Próximo</button>
+        </div>
+
+
+
+
+        <!-- Tela 13: Conclusão ou Tela Final -->
+        <div id="screen13" class="screen">
+            <h2>Conclusão</h2>
+            <p>Este projeto nos levou a uma profunda reflexão sobre a Consciência Negra e suas múltiplas facetas.
+                Agradecemos por acompanhar nossa jornada de aprendizado e celebração da cultura e história negra.</p>
+            <p>Fim do Trabalho.</p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
+
+
+</div>
+<script src="script.js"></script>
+</body>
+
+</html>
